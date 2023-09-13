@@ -31,6 +31,9 @@ devDependencies:
   '@unocss/preset-web-fonts':
     specifier: ^0.55.7
     version: registry.npmmirror.com/@unocss/preset-web-fonts@0.55.7
+  '@unocss/transformer-variant-group':
+    specifier: ^0.55.7
+    version: registry.npmmirror.com/@unocss/transformer-variant-group@0.55.7
   '@vueuse/core':
     specifier: ^10.4.1
     version: registry.npmmirror.com/@vueuse/core@10.4.1(vue@3.3.4)

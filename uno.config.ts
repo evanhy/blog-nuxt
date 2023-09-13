@@ -1,7 +1,16 @@
 // uno.config.ts
 import {defineConfig, presetAttributify, presetUno, presetIcons, presetTypography, presetWebFonts} from 'unocss'
+import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineConfig({
+    shortcuts: {
+        'flex-center': 'flex items-center justify-center',
+        'text-title': 'text-xl sm:text-3xl',
+        'hover': 'op-70 hover:op-100 cursor-pointer transition-opacity',
+        'deep-hover': 'op-20 hover:op-70 cursor-pointer transition-opacity',
+        'bd': 'border-gray-500 border-1',
+        'text-deep': 'c-black dark:c-white',
+    },
     presets: [
         presetAttributify(),
         presetUno({
@@ -28,6 +37,9 @@ export default defineConfig({
             },
         })
     ],
+    transformers: [
+        transformerVariantGroup(),
+    ],
     rules: [
         [
             // 多行文本超出部分省略号 line-n
@@ -50,9 +62,4 @@ export default defineConfig({
             },
         ],
     ],
-    shortcuts: {
-        "flex-c": "flex justify-center items-center",
-        "flex-bc": "flex justify-between items-center",
-        'hover': 'op-70 hover:op-100 cursor-pointer transition-opacity',
-    },
 })

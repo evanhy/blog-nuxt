@@ -6,6 +6,5 @@ const posts = await getIncludedYearPosts('blog')
 
 <template>
     <sub-nav></sub-nav>
-
     <post-list :posts="posts"/>
 </template>

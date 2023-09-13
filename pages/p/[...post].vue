@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-
 const route = useRoute()
 const post = route.params.post as Array<string>
 const path = post.join('/')
@@ -10,7 +9,9 @@ const path = post.join('/')
         <ContentDoc :path="path">
             <template #default="{ doc }">
                 <doc-back/>
+                <!--        文章正文        -->
                 <doc-render :article="doc"/>
+                <!--        目录        -->
                 <doc-toc :toc="doc.body.toc"/>
             </template>
 

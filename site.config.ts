@@ -11,12 +11,12 @@ export const subNavLinks = [
         path: '/blog',
     },
     {
-        title: 'Life',
-        path: '/life',
+        title: 'Tags',
+        path: '/tags',
     },
     {
-        title: 'Record',
-        path: '/record',
+        title: 'Life',
+        path: '/life',
     },
 ]
 
