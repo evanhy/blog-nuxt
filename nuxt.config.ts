@@ -4,9 +4,10 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: "Evan_Sky",
+            bodyAttrs: {
+                class: 'font-sans',
+            },
         },
-        pageTransition: {name: 'page', mode: 'out-in'}
-
     },
     vite: {
         vue: {
@@ -15,10 +16,13 @@ export default defineNuxtConfig({
     },
     modules: [
         "@unocss/nuxt",
+        '@nuxt/content'
     ],
     css: [
-        "@unocss/reset/normalize.css",
-        "@/assets/css/reset.css",
-        // "@unocss/reset/tailwind.css"
+        '@unocss/reset/tailwind.css',
+        '@/assets/styles/global.scss',
+        '@/assets/styles/theme.css',
+        '@/assets/styles/transition.css',
+        '@/assets/styles/markdown.scss',
     ]
 })

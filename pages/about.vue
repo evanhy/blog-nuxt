@@ -1,5 +1,6 @@
 <template>
-    <div class="prose dark:prose-invert max-w-none"><h2>👋 Welcome</h2>
+    <article class="prose prose-sky  xl:text-xl  max-w-none">
+        <h2>👋 Welcome</h2>
         <h3>我</h3>
         <p>我是赫子子，一名前端码农，以前端为主要开发领域，偶尔在空闲时间开发一些小玩意，对<code>CLI</code>工具开发感兴趣
         </p>
@@ -22,8 +23,8 @@
             <li><code>vue</code></li>
             <li><code>typescript</code></li>
             <li><code>react-syntax-highlighter</code> 代码语法高亮</li>
-            <li><code>tailwindcss</code> 整站样式</li>
-            <li><code>@tailwindcss/typography</code> 文章排版</li>
+            <li><code>unocss</code> 整站样式</li>
+            <li><code>@unocss/preset-typography</code> 文章排版</li>
             <li><code>@next/mdx</code> 解析mdx文件</li>
             <li><code>remark-frontmatter</code> 处理mdx中的yaml避免被解析成标签</li>
             <li><code>gray-matter</code> 解析提取yaml和markdown</li>
@@ -36,5 +37,5 @@
             <li><code>cz-git</code> commitizen适配器</li>
             <li><code>release-it</code> 发布版本并生成CHANGELOG</li>
         </ul>
-    </div>
+    </article>
 </template>

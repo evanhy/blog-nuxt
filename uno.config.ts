@@ -1,20 +1,32 @@
 // uno.config.ts
-import {defineConfig, presetAttributify, presetUno, presetIcons, presetTypography} from 'unocss'
+import {defineConfig, presetAttributify, presetUno, presetIcons, presetTypography, presetWebFonts} from 'unocss'
 
 export default defineConfig({
     presets: [
-        presetAttributify({ /* preset options */}),
-        presetUno(),
+        presetAttributify(),
+        presetUno({
+            dark: 'class',
+        }),
         presetIcons({
                 warn: true,
                 extraProperties: {
-                    display: 'inline-block',
+                    'display': 'inline-block',
                     'vertical-align': 'middle',
+                    'width': '1.2em',
+                    'height': '1.2em',
                 }
             }
         ),
         // 版式预设
         presetTypography(),
+        presetWebFonts({
+            provider: 'google', // default provider
+            fonts: {
+                sans: ['Inter', 'Noto Sans Simplified Chinese'],
+                mono: ['Fira Mono:400,700'],
+                hand: ['Dancing Script'],
+            },
+        })
     ],
     rules: [
         [
@@ -41,8 +53,6 @@ export default defineConfig({
     shortcuts: {
         "flex-c": "flex justify-center items-center",
         "flex-bc": "flex justify-between items-center",
-        "bg-main": "bg-blue-7",
-        "text-link": "text-#1890ff",
-        "warn-red": "bg-red-4 text-white  rounded p-1",
+        'hover': 'op-70 hover:op-100 cursor-pointer transition-opacity',
     },
 })
