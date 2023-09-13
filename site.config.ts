@@ -31,6 +31,11 @@ export const navLinks = [
         path: '/blog',
         icon: 'i-icon-park-outline-align-text-right-one',
     },
+    {
+        title: "Search",
+        path: "/search",
+        icon: "i-icon-park-outline-search"
+    },
     // {
     //   title: 'Projects',
     //   path: '/projects',

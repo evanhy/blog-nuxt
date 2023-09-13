@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    devtools: {enabled: false},
+    modules: [
+        "@unocss/nuxt",
+        "@vueuse/nuxt",
+        '@nuxt/content',
+    ],
     app: {
+        rootId: 'nuxt-root',
         head: {
             title: "Evan_Sky",
             bodyAttrs: {
@@ -9,15 +14,26 @@ export default defineNuxtConfig({
             },
         },
     },
-    vite: {
-        vue: {
-            customElement: true, // 开启自定义元素支持
-        }
+    content: {
+        // 代码高亮
+        highlight: {
+            // 主题
+            theme: {
+                default: 'github-light',
+                dark: 'github-dark',
+                sepia: 'monokai',
+            },
+            // 预加载
+            preload: [
+                'vue',
+                'js',
+                'ts',
+                'html'
+            ],
+
+        },
+        
     },
-    modules: [
-        "@unocss/nuxt",
-        '@nuxt/content'
-    ],
     css: [
         '@unocss/reset/tailwind.css',
         '@/assets/styles/global.scss',

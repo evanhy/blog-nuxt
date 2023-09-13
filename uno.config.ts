@@ -1,6 +1,10 @@
 // uno.config.ts
-import {defineConfig, presetAttributify, presetUno, presetIcons, presetTypography, presetWebFonts} from 'unocss'
+import {defineConfig, presetAttributify, presetUno, presetIcons, presetWebFonts} from 'unocss'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
+import {navLinks, socialLinks} from './site.config'
+
+const compoundLinks = [...navLinks, ...socialLinks]
+const safeNavIcon = compoundLinks.map(link => link.icon)
 
 export default defineConfig({
     shortcuts: {
@@ -10,6 +14,17 @@ export default defineConfig({
         'deep-hover': 'op-20 hover:op-70 cursor-pointer transition-opacity',
         'bd': 'border-gray-500 border-1',
         'text-deep': 'c-black dark:c-white',
+    },
+    theme: {
+        colors: {
+            primary: 'var(--primary)',
+            container: 'var(--c-bg)',
+        },
+        extend: {
+            borderRadius: {
+                common: 'var(--common-rd)',
+            },
+        },
     },
     presets: [
         presetAttributify(),
@@ -26,8 +41,6 @@ export default defineConfig({
                 }
             }
         ),
-        // 版式预设
-        presetTypography(),
         presetWebFonts({
             provider: 'google', // default provider
             fonts: {
@@ -40,6 +53,7 @@ export default defineConfig({
     transformers: [
         transformerVariantGroup(),
     ],
+    safelist: [...safeNavIcon],
     rules: [
         [
             // 多行文本超出部分省略号 line-n
@@ -62,4 +76,5 @@ export default defineConfig({
             },
         ],
     ],
+
 })
