@@ -23,7 +23,8 @@ const tagsContent = contentQuery
     <ul class="flex gap-1em flex-wrap">
         <li v-for="(value, key, index) in tagsContent" :key="key" :style="{ '--stagger': index + 1 }"
             class="px-2 bg-gray-400:20 rd-1"
-            slide-enter>
+            slide-enter
+        >
             <NuxtLink :to="`/tags/${key}`" class="flex gap-2">
                 <span class="hover">#{{ key }}</span>
                 <span>{{ value }}</span>
