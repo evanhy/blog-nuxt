@@ -19,8 +19,8 @@ export default defineNuxtConfig({
         highlight: {
             // 主题
             theme: {
-                default: 'github-light',
-                dark: 'github-dark',
+                default: 'vitesse-light',
+                dark: 'one-dark-pro',
                 sepia: 'monokai',
             },
             // 预加载
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
             ],
 
         },
-        
+
     },
     css: [
         '@unocss/reset/tailwind.css',

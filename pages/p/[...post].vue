@@ -8,11 +8,11 @@ const path = post.join('/')
     <section class="prose relative slide-enter-content">
         <ContentDoc :path="path">
             <template #default="{ doc }">
-                <doc-back/>
-                <!--        文章正文        -->
-                <doc-render :article="doc"/>
                 <!--        目录        -->
                 <doc-toc :toc="doc.body.toc"/>
+                <!--        文章正文        -->
+                <doc-render :article="doc"/>
+                <doc-back/>
             </template>
 
             <template #empty>

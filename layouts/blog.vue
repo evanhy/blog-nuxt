@@ -4,7 +4,7 @@ import {navLinks, siteConfig} from "~/site.config";
 
 
 <template>
-    <section class="min-h-screen mx-auto max-w-5xl pt-12 pb-8 px-8">
+    <section class="min-h-screen mx-auto max-w-65ch 2xl:max-w-90ch pt-12 pb-8 px-8">
         <header class="flex justify-between items-center mb-20">
             <a class="text-2xl font-hand op-60" href="/">{{ siteConfig.author }}</a>
             <nav class="flex justify-around rounded-full shadow-2xl shadow-gray-400 px-3">

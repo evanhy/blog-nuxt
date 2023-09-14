@@ -116,12 +116,11 @@ html.dark {
 
 **安装：**
 
-```ts
-pnpm
-add - D
-@iconify
--json / [你想要的收藏]
+```shell
+pnpm add - D @iconify/json / [你想要的收藏]
+```
 
+```ts
 // uno.config.ts
 import {defineConfig, presetIcons} from 'unocss'
 
@@ -188,17 +187,14 @@ export default defineConfig({
 
 ```ts
 // 自定义快捷方式
-shortcuts: {
-    "bg-main"
-:
-    "bg-green-50",
-    // ...
-}
-,
+export default defineConfig({
+    shortcuts: {
+        "bg-main": "bg-green-50",
+    }
+})
 ```
 
 ```html
-
 <div class="bg-main"/>
 ```
 
@@ -284,29 +280,27 @@ export default defineConfig({
 
 [Compile class transformer](https://unocss.dev/transformers/compile-class)
 
-```ts
-// install
-pnpm
-add - D
-@unocss/
-transformer - compile - class
+```shell
+# install
+pnpm add -D @unocss/transformer-variant-group
+```
 
+```ts
 // uno.config.ts
-import {defineConfig} from 'unocss'
-import transformerCompileClass from '@unocss/transformer-compile-class'
+import { defineConfig } from 'unocss'
+import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineConfig({
-    // ...
-    transformers: [
-        transformerCompileClass(),
-    ],
+  // ...
+  transformers: [
+    transformerVariantGroup(),
+  ],
 })
 ```
 
 **使用：**
 
 ```html
-
 <div class=":uno: text-center sm:text-left">
   <div class=":uno: text-sm font-bold hover:text-red"/>
 </div>
@@ -315,7 +309,6 @@ export default defineConfig({
 最终编译的结果：
 
 ```html
-
 <div class="uno-qlmcrp">
   <div class="uno-0qw2gr"/>
 </div>

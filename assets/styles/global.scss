@@ -63,17 +63,7 @@ html {
 
 pre,
 code {
-  font-family: 'Source Code Pro', ui-monospace, monospace;
-}
-
-.skill-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3em;
-
-  > figure {
-    margin: initial !important;
-  }
+  font-family: Fira Code, DM Mono, Input Mono, monospace;
 }
 
 .link {

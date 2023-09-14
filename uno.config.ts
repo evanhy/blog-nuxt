@@ -1,5 +1,5 @@
 // uno.config.ts
-import {defineConfig, presetAttributify, presetUno, presetIcons, presetWebFonts} from 'unocss'
+import {defineConfig, presetAttributify, presetUno, presetIcons, presetWebFonts, transformerDirectives} from 'unocss'
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 import {navLinks, socialLinks} from './site.config'
 
@@ -52,6 +52,7 @@ export default defineConfig({
     ],
     transformers: [
         transformerVariantGroup(),
+        transformerDirectives(),
     ],
     safelist: [...safeNavIcon],
     rules: [
