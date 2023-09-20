@@ -6,8 +6,6 @@ title: echarts tooltip 无法正常显示
 description: 在 Vue3 中使用 Echarts 的时候，tooltip无法正常显示
 ---
 
-# echarts tooltip 无法正常显示
-
 > 技术栈：Vue3 + Echarts
 
 在 Vue3 中使用 Echarts 的时候，tooltip无法正常显示
@@ -60,7 +58,7 @@ myChart.value = echarts.init(/* */);
 
 ### shallowRef
 
-看看官网的介绍
+看看[vue官网](https://cn.vuejs.org/api/reactivity-advanced.html#shallowref)的介绍
 
 > [`ref()`](https://cn.vuejs.org/api/reactivity-core.html#ref) 的浅层作用形式。
 >
