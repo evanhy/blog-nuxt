@@ -337,3 +337,10 @@ export default defineConfig({
     },
 })
 ```
+
+## 注意事项：
+
++ 使用 `Ant Design Vue` 时， unocss 的重置样式让，`a-button` 的默认按钮变透明
+  + 在 `main.ts` 中引入 `import '@unocss/reset/tailwind-compat.css'`
+  + 而不是 `import '@unocss/reset/tailwind.css'`
+  + 即可解决
