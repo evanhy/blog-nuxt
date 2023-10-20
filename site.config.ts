@@ -37,11 +37,6 @@ export const navLinks = [
         icon: "i-icon-park-outline-search"
     },
     {
-        title: "Navigation",
-        path: "/navigation",
-        icon: "i-icon-park-outline-navigation"
-    },
-    {
         title: 'About',
         path: '/about',
         icon: 'i-icon-park-outline-grinning-face-with-open-mouth',
