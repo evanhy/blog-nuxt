@@ -35,10 +35,6 @@ export const navigationLinks = [
         title: "后台模板推荐",
         path: "/navigation/admin",
     },
-    {
-        title: "官方文档",
-        path: "/navigation/doc",
-    }
 ]
 
 // 网站导航

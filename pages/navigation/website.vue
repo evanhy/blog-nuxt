@@ -1,57 +1,10 @@
 <script lang="ts" setup>
-// 在线获取图标 https://favicongrabber.com/
-
-// 组件库导航
-const componentList = ref([
-    {
-        title: "UI组件库",
-        icon: "i-material-symbols:developer-guide-outline",
-        children: [
-            {
-                title: "Element Plus",
-                icon: "https://element-plus.org/images/element-plus-logo-small.svg",
-                link: "https://element-plus.org/zh-CN/",
-            },
-            {
-                title: "Ant Design Vue",
-                icon: "https://aliyuncdn.antdv.com/favicon.ico",
-                link: "https://2x.antdv.com/components/overview-cn/",
-            },
-            {
-                title: "vant",
-                icon: "https://img.yzcdn.cn/vant/logo.png",
-                link: "https://vant-contrib.gitee.io/vant/#/zh-CN/",
-            }
-        ]
-    },
-    {
-        title: "工具库",
-        icon: "i-ant-design:tool-outlined",
-        children: [
-            {
-                title: "lodash",
-                icon: "https://lodash.com/assets/img/lodash.svg",
-                link: "https://lodash.com/",
-            }
-        ]
-    },
-    {
-        title: "可视化图表",
-        icon: "i-material-symbols:pie-chart",
-        children: [
-            {
-                title: "ECharts",
-                icon: "https://echarts.apache.org/favicon.ico",
-                link: "https://echarts.apache.org/zh/index.html",
-            }
-        ]
-    },
-]);
+import {websiteList} from "~/pages/navigation/list";
 </script>
 
 <template>
     <navigation-links/>
-    <div v-for="comp in componentList" :key="comp.title" class="mb-8 slide-enter-content">
+    <div v-for="comp in websiteList" :key="comp.title" class="mb-8 slide-enter-content">
         <h1 class="text-xl border-b mb-4 pb-2">
             <i :class="comp.icon"></i>
             {{ comp.title }}
