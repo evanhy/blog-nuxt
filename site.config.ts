@@ -28,13 +28,17 @@ export const navigationLinks = [
         path: "/navigation/ui",
     },
     {
-        title: "网站推荐",
+        title: "网站",
         path: "/navigation/website",
     },
     {
-        title: "后台模板推荐",
+        title: "后台模板",
         path: "/navigation/admin",
     },
+    {
+        title: "工具",
+        path: "/navigation/tools",
+    }
 ]
 
 // 网站导航

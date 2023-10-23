@@ -21,7 +21,7 @@ defineProps({
                 :key="child.title"
                 :href="child.link"
                 :title="child.title"
-                class="bg-gray:7 p-4 rounded cursor-pointer flex justify-between items-center"
+                class="bg-gray:7 p-4 rounded cursor-pointer flex justify-between items-center shadow hover:(bg-gray-8 text-white)"
                 target="_blank"
             >
                 <div class="flex-1 flex items-center w-0">
