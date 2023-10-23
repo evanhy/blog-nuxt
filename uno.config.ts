@@ -77,5 +77,13 @@ export default defineConfig({
             },
         ],
     ],
-
+    content: {
+        pipeline: {
+            // 解决动态图标无法显示的问题 https://unocss-study-examples.netlify.app/#/CSSIcon
+            include: [
+                /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
+                'pages/navigation/list.ts',
+            ],
+        },
+    },
 })
