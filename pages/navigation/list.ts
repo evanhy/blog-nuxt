@@ -379,6 +379,30 @@ export const componentList: NavigationLink[] = [
                 github: "https://github.com/surmon-china/vue-quill-editor"
             }
         ]
+    },
+    {
+        title: "Icon",
+        icon: "i-teenyicons-svg-solid",
+        children: [
+            {
+                title: "feathericons",
+                icon: "https://feathericons.com/favicon-16x16.png",
+                link: "https://feathericons.com/",
+                github: "https://github.com/feathericons/feather"
+            },
+            {
+                title: "RemixIcon",
+                icon: "https://remixicon.com/favicon.ico",
+                link: "https://remixicon.com/",
+                github: "https://github.com/Remix-Design/RemixIcon"
+            },
+            {
+                title: "ikonate",
+                icon: "https://ikonate.com/favicon.png",
+                link: "https://ikonate.com/",
+                github: "https://github.com/mikolajdobrucki/ikonate"
+            }
+        ]
     }
 ]
 
