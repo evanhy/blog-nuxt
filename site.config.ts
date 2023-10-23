@@ -32,7 +32,7 @@ export const navigationLinks = [
         path: "/navigation/website",
     },
     {
-        title: "后台模板",
+        title: "模板",
         path: "/navigation/admin",
     },
     {

@@ -104,6 +104,12 @@ export const componentList: NavigationLink[] = [
                 icon: "https://sortablejs.github.io/Sortable/st/og-image.png",
                 link: "https://sortablejs.github.io/Sortable/",
                 github: "https://github.com/SortableJS/Sortable",
+            },
+            {
+                title: "ni",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/js-logo.png",
+                link: "https://github.com/antfu/ni",
+                github: "https://github.com/antfu/ni",
             }
         ],
     },
@@ -525,7 +531,7 @@ export const websiteList: NavigationLink[] = [
 // 后台模板推荐列表
 export const adminList: NavigationLink[] = [
     {
-        title: "Vue3 版本",
+        title: "Vue3 后台模板",
         icon: "i-ri-vuejs-line",
         children: [
             {
@@ -603,7 +609,7 @@ export const adminList: NavigationLink[] = [
         ],
     },
     {
-        title: "Vue2 版本",
+        title: "Vue2 后台模板",
         icon: "i-uil-vuejs",
         children: [
             {
@@ -681,6 +687,78 @@ export const toolsList: NavigationLink[] = [
                 title: "bard",
                 link: "https://bard.google.com/",
                 icon: "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg",
+            },
+            {
+                title: "Free ChatGPT",
+                icon: "https://cc.ai55.cc/favicon.svg",
+                link: "https://cc.ai55.cc/",
+                github: "https://github.com/xx025/carrot"
+            },
+            {
+                title: "GPT_API_free",
+                icon: "https://github.com/chatanywhere/GPT_API_free/raw/main/images/logo.png",
+                link: "https://github.com/chatanywhere/GPT_API_free",
+                github: "https://github.com/chatanywhere/GPT_API_free"
+            }
+        ]
+    },
+    {
+        title: "工程化",
+        icon: "i-material-symbols:rocket-launch-outline",
+        children: [
+            {
+                title: "eslint",
+                icon: "https://eslint.org/favicon.ico",
+                link: "https://eslint.org/",
+                github: "https://github.com/eslint/eslint"
+            },
+            {
+                title: "prettier",
+                icon: "https://prettier.io/icon.png",
+                link: "https://prettier.io/",
+                github: "https://github.com/prettier/prettier"
+            },
+            {
+                title: "husky",
+                icon: "https://pic.imgdb.cn/item/65363d3bc458853aef41d5c9.jpg",
+                link: "https://typicode.github.io/husky/",
+                github: "https://github.com/typicode/husky"
+            },
+            {
+                title: "lint-staged",
+                icon: "https://avatars.githubusercontent.com/u/142687600?s=200&v=4",
+                link: "https://github.com/lint-staged/lint-stagedhttps://github.com/lint-staged/lint-staged",
+                github: "https://github.com/lint-staged/lint-staged"
+            },
+            {
+                title: "commitlint",
+                icon: "https://commitlint.js.org/assets/icon.png",
+                link: "https://commitlint.js.org/#/",
+                github: "https://github.com/conventional-changelog/commitlint"
+            },
+            {
+                title: "stylelint",
+                icon: "https://stylelint.io/img/favicon.ico",
+                link: "https://stylelint.io/",
+                github: "https://github.com/stylelint/stylelint"
+            }
+        ]
+    },
+    {
+        title: "其他",
+        icon: "i-basil-other-1-outline",
+        children: [
+            {
+                title: "50projects50days",
+                icon: "https://avatars.githubusercontent.com/u/5550850?v=4",
+                link: "https://50projects50days.com/",
+                github: "https://github.com/bradtraversy/50projects50days"
+            },
+            {
+                title: "design-resources-for-developers",
+                icon: "https://avatars.githubusercontent.com/u/5550850?v=4",
+                link: "https://github.com/bradtraversy/design-resources-for-developers",
+                github: "https://github.com/bradtraversy/design-resources-for-developers"
             }
         ]
     }
