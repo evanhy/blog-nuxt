@@ -208,6 +208,60 @@ export const componentList: NavigationLink[] = [
             },
         ],
     },
+    {
+        title: "视频播放器",
+        icon: "i-ic-baseline-videocam",
+        children: [
+            {
+                title: "xgplayer",
+                icon: "https://lf3-static.bytednsdoc.com/obj/eden-cn/nupenuvpxnuvo/xgplayer_doc/favicon.ico",
+                link: "https://h5player.bytedance.com/",
+                github: "https://github.com/bytedance/xgplayer"
+            },
+            {
+                title: "videojs-player",
+                icon: "https://cdn-icons-png.flaticon.com/512/711/711245.png",
+                link: "https://github.surmon.me/videojs-player",
+                github: "https://github.com/surmon-china/videojs-player"
+            },
+            {
+                title: "DPlayer",
+                icon: "https://dplayer.diygod.dev/logo.png",
+                link: "https://dplayer.diygod.dev/",
+                github: "https://github.com/DIYgod/DPlayer"
+            },
+            {
+                title: "vue3-video-play",
+                icon: "https://cdn-icons-png.flaticon.com/512/711/711245.png",
+                link: "https://codelife.cc/vue3-video-play/",
+                github: "https://github.com/xdlumia/vue3-video-play"
+            },
+            {
+                title: "video.js",
+                icon: "https://videojs.com/favicon.ico",
+                link: "https://videojs.com/",
+                github: "https://github.com/videojs/video.js"
+            },
+            {
+                title: "hls.js",
+                icon: "https://raw.githubusercontent.com/video-dev/hls.js/master/docs/logo.svg",
+                link: "https://hlsjs.video-dev.org/demo",
+                github: "https://github.com/video-dev/hls.js"
+            },
+            {
+                title: "flv.js",
+                icon: "https://cdn-icons-png.flaticon.com/512/711/711245.png",
+                link: "https://bilibili.github.io/flv.js/demo/",
+                github: "https://github.com/bilibili/flv.js"
+            },
+            {
+                title: "plyr",
+                icon: "https://cdn.plyr.io/static/icons/favicon.ico",
+                link: "https://plyr.io/",
+                github: "https://github.com/sampotts/plyr"
+            }
+        ]
+    }
 ]
 
 // 网站推荐列表
@@ -242,6 +296,52 @@ export const websiteList: NavigationLink[] = [
                 link: "https://blog.csdn.net/nav/web"
             }
         ],
+    },
+    {
+        title: "大牛",
+        icon: "i-icon-park-outline-good-two",
+        children: [
+            {
+                title: "Anthony Fu",
+                icon: "https://antfu.me/favicon.svg",
+                link: "https://antfu.me/"
+            },
+            {
+                title: "阮一峰",
+                icon: "https://www.ruanyifeng.com/favicon.ico",
+                link: "https://www.ruanyifeng.com/blog/"
+            },
+            {
+                title: "张鑫旭",
+                icon: "https://www.zhangxinxu.com/favicon.ico",
+                link: "https://www.zhangxinxu.com/wordpress/"
+            },
+            {
+                title: "廖雪峰",
+                icon: "https://www.liaoxuefeng.com/favicon.ico",
+                link: "https://www.liaoxuefeng.com/"
+            },
+            {
+                title: "蚊子",
+                icon: "https://www.xiabingbao.com/favicon.ico",
+                link: "https://www.xiabingbao.com/"
+            },
+            {
+                title: "三咲智子 Kevin Deng",
+                icon: "https://xlog.sxzz.moe/_next/image?url=https%3A%2F%2Fipfs.xlog.app%2Fipfs%2Fbafkreihcmikli6erxacovfw5xlwnaqv2ye7decbvlkxkljpfioqqsbipqe&w=384&q=75",
+                link: "https://xlog.sxzz.moe/"
+            },
+            {
+                title: "若川的博客",
+                icon: "https://lxchuan12.gitee.io/favicon.ico",
+                link: "https://lxchuan12.gitee.io/"
+            },
+            {
+                title: "Xpzheng's Blog",
+                icon: "https://zhengxiaoping.xyz/logo.svg",
+                link: "https://zhengxiaoping.xyz/"
+            }
+        ]
     }
 ]
 
@@ -388,7 +488,7 @@ export const toolsList: NavigationLink[] = [
     },
     {
         title: "AI对话",
-        icon: "i-octicon-copilot-24",
+        icon: "i-arcticons-openai-chatgpt",
         children: [
             {
                 title: "ChatGPT",
@@ -408,3 +508,4 @@ export const toolsList: NavigationLink[] = [
         ]
     }
 ]
+
