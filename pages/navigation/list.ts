@@ -1,4 +1,5 @@
 // 在线获取图标 https://favicongrabber.com/
+// 获取 Github star 数量 https://shields.io/badges/git-hub-repo-stars
 
 export interface NavigationLink {
     title?: string
@@ -162,7 +163,7 @@ export const componentList: NavigationLink[] = [
                 title: "vue-countTo",
                 icon: "https://cn.vuejs.org/logo.svg",
                 link: "https://panjiachen.github.io/countTo/demo/",
-                github: "https://panjiachen.github.io/countTo/demo/",
+                github: "https://github.com/PanJiaChen/vue-countTo",
             },
             {
                 title: "vue3-seamless-scroll",
@@ -403,7 +404,7 @@ export const adminList: NavigationLink[] = [
                 title: "vue-vben-admin",
                 icon: "https://doc.vvbin.cn/logo.png",
                 link: "https://doc.vvbin.cn/",
-                github: "https://github.com/vbenjs/vue-vben-adminhttps://github.com/vbenjs/vue-vben-admin"
+                github: "https://github.com/vbenjs/vue-vben-admin"
             },
             {
                 title: "vben-admin-thin-next",

@@ -7,6 +7,22 @@ defineProps({
         required: true
     }
 })
+
+// 获取github star
+const getGithubStar = (link: string) => {
+    const github = link.match(/https:\/\/github.com\/(.*)/);
+    if (github) {
+        const repo = github[1].split('/');
+        return `https://img.shields.io/github/stars/${repo[0]}/${repo[1]}?style=social`;
+    } else {
+        return '';
+    }
+}
+
+// 跳转 GitHub 仓库
+const jumpGithub = (link: string) => {
+    window.open(link, '_blank');
+}
 </script>
 
 <template>
@@ -15,7 +31,7 @@ defineProps({
             <i :class="comp.icon"></i>
             {{ comp.title }}
         </h1>
-        <div class="grid grid-cols-6 gap-4">
+        <div class="grid  gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <a
                 v-for="child in comp.children"
                 :key="child.title"
@@ -31,7 +47,9 @@ defineProps({
                     />
                     <span class="line-1">{{ child.title }}</span>
                 </div>
-                <i class="i-material-symbols:expand-circle-right-outline text-gray-4"></i>
+                <img v-if="child.github" :src="getGithubStar(child.github)" alt=""
+                     @click.stop.prevent="jumpGithub(child.github)"/>
+                <i v-else class="i-material-symbols:expand-circle-right-outline text-gray-4"></i>
             </a>
         </div>
     </div>
