@@ -262,6 +262,81 @@ export const componentList: NavigationLink[] = [
                 github: "https://github.com/sampotts/plyr"
             }
         ]
+    },
+    {
+        title: "CSS",
+        icon: "i-ci-css3",
+        children: [
+            {
+                title: "animate.css",
+                icon: "https://animate.style/img/favicon.ico",
+                link: "https://animate.style/",
+                github: "https://github.com/animate-css/animate.css"
+            },
+            {
+                title: "animista",
+                icon: "https://animista.net/favicon-16x16.png",
+                link: "https://animista.net/"
+            },
+            {
+                title: "magic",
+                icon: "https://www.minimamente.com/wp-content/uploads/2020/06/cropped-logo_1024_favicoon-32x32.png",
+                link: "https://www.minimamente.com/project/magic/",
+                github: "https://github.com/miniMAC/magic"
+            },
+            {
+                title: "Hover",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/css-logo.png",
+                link: "https://ianlunn.github.io/Hover/",
+                github: "https://github.com/IanLunn/Hover"
+            },
+            {
+                title: "ui-buttons",
+                icon: "https://ui-buttons.web.app/favicon.ico",
+                link: "https://ui-buttons.web.app/",
+                github: "https://github.com/eludadev/ui-buttons"
+            },
+            {
+                title: "uiverse",
+                icon: "https://uiverse.io/favicon-16x16.png",
+                link: "https://uiverse.io/"
+            },
+            {
+                title: "navnav",
+                icon: "https://navnav.co/favicon.ico",
+                link: "https://navnav.co/"
+            },
+            {
+                title: "CSS-Inspiration",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/css-logo.png",
+                link: "https://csscoco.com/inspiration/#/./init",
+                github: "https://github.com/chokcoco/CSS-Inspiration"
+            },
+            {
+                title: "tailwindcss",
+                icon: "https://tailwindcss.com/favicons/favicon-32x32.png?v=3",
+                link: "https://tailwindcss.com/",
+                github: "https://github.com/tailwindlabs/tailwindcss"
+            },
+            {
+                title: "UnoCSS",
+                icon: "https://unocss.dev/favicon.ico",
+                link: "https://unocss.dev/",
+                github: "https://github.com/unocss/unocss"
+            },
+            {
+                title: "You-need-to-know-css",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/css-logo.png",
+                link: "https://lhammer.cn/You-need-to-know-css/",
+                github: "https://github.com/l-hammer/You-need-to-know-css"
+            },
+            {
+                title: "iCSS",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/css-logo.png",
+                link: "https://www.cnblogs.com/coco1s/",
+                github: "https://github.com/chokcoco/iCSS"
+            }
+        ]
     }
 ]
 
