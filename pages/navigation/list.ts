@@ -418,6 +418,41 @@ export const websiteList: NavigationLink[] = [
                 link: "https://zhengxiaoping.xyz/"
             }
         ]
+    },
+    {
+        title: "技术周刊",
+        icon: "i-ic-twotone-menu-book",
+        children: [
+            {
+                title: "weekly",
+                icon: "https://s0.ssl.qhres2.com/static/3444fd94a3c31e92.ico",
+                link: "https://github.com/ascoders/weekly",
+                github: "https://github.com/ascoders/weekly"
+            },
+            {
+                title: "奇舞周刊",
+                icon: "https://s0.ssl.qhres2.com/static/3444fd94a3c31e92.ico",
+                link: "https://weekly.75.team/"
+            },
+            {
+                title: "中文前端博客",
+                icon: "https://s0.ssl.qhres2.com/static/3444fd94a3c31e92.ico",
+                link: "https://github.com/FrankFang/best-chinese-front-end-blogs",
+                github: "https://github.com/FrankFang/best-chinese-front-end-blogs"
+            },
+            {
+                title: "前端优秀网站",
+                icon: "https://s0.ssl.qhres2.com/static/3444fd94a3c31e92.ico",
+                link: "https://github.com/foru17/front-end-collect",
+                github: "https://github.com/foru17/front-end-collect"
+            },
+            {
+                title: "小智",
+                icon: "https://avatars.githubusercontent.com/u/35094245?v=4",
+                link: "https://github.com/husky-dot/xiaozhi",
+                github: "https://github.com/husky-dot/xiaozhi"
+            }
+        ]
     }
 ]
 
