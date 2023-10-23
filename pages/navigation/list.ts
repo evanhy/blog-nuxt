@@ -99,6 +99,12 @@ export const componentList: NavigationLink[] = [
                 link: "https://typeitjs.com/",
                 github: "https://github.com/alexmacarthur/typeit",
             },
+            {
+                title: "Sortable",
+                icon: "https://sortablejs.github.io/Sortable/st/og-image.png",
+                link: "https://sortablejs.github.io/Sortable/",
+                github: "https://github.com/SortableJS/Sortable",
+            }
         ],
     },
     {
@@ -335,6 +341,42 @@ export const componentList: NavigationLink[] = [
                 icon: "https://www.runoob.com/wp-content/uploads/2013/07/css-logo.png",
                 link: "https://www.cnblogs.com/coco1s/",
                 github: "https://github.com/chokcoco/iCSS"
+            }
+        ]
+    },
+    {
+        title: "富文本编辑器",
+        icon: "i-quill-markdown",
+        children: [
+            {
+                title: "wangEditor",
+                icon: "https://www.wangeditor.com/favicon.ico",
+                link: "https://www.wangeditor.com/",
+                github: "https://github.com/wangeditor-team/wangEditor"
+            },
+            {
+                title: "tinymce",
+                icon: "https://www.tiny.cloud/favicon-32x32.png",
+                link: "https://www.tiny.cloud/",
+                github: "https://github.com/tinymce/tinymce"
+            },
+            {
+                title: "quill",
+                icon: "https://quilljs.com/assets/images/favicon.ico",
+                link: "https://quilljs.com/",
+                github: "https://github.com/quilljs/quill"
+            },
+            {
+                title: "lexical",
+                icon: "https://lexical.dev/img/favicon.ico",
+                link: "https://lexical.dev/",
+                github: "https://github.com/facebook/lexical",
+            },
+            {
+                title: "vue-quill-editor",
+                icon: "https://www.runoob.com/wp-content/uploads/2013/07/js-logo.png",
+                link: "https://github.surmon.me/vue-quill-editor",
+                github: "https://github.com/surmon-china/vue-quill-editor"
             }
         ]
     }
