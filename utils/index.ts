@@ -45,3 +45,19 @@ export async function getIncludedYearPosts(dirName: string) {
     const result = await queryContent(dirName).sort({date: -1}).find()
     return insertYearToPosts(result)
 }
+
+
+/**
+ * 获取 github star
+ * @param link github 链接
+ * @returns github star 图标
+ */
+export const getGithubStar = (link: string) => {
+    const github = link.match(/https:\/\/github.com\/(.*)/);
+    if (github) {
+        const repo = github[1].split('/');
+        return `https://img.shields.io/github/stars/${repo[0]}/${repo[1]}?style=social`;
+    } else {
+        return '';
+    }
+}

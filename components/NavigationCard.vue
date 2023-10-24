@@ -1,5 +1,8 @@
 <script lang='ts' setup>
 import type {NavigationLink} from '~/pages/navigation/list';
+import type {NavigationDrawerProps} from "~/components/NavigationDrawer.vue";
+import NavigationDrawer from "~/components/NavigationDrawer.vue";
+import {getGithubStar} from "~/utils";
 
 defineProps({
     componentList: {
@@ -8,20 +11,18 @@ defineProps({
     }
 })
 
-// 获取github star
-const getGithubStar = (link: string) => {
-    const github = link.match(/https:\/\/github.com\/(.*)/);
-    if (github) {
-        const repo = github[1].split('/');
-        return `https://img.shields.io/github/stars/${repo[0]}/${repo[1]}?style=social`;
-    } else {
-        return '';
-    }
-}
-
 // 跳转 GitHub 仓库
 const jumpGithub = (link: string) => {
     window.open(link, '_blank');
+}
+
+// 导航抽屉
+const navigationDrawer = ref<NavigationDrawerProps>(null);
+
+// 打开抽屉
+const openDrawer = (child: NavigationLink) => {
+    navigationDrawer.value.open();
+    navigationDrawer.value.compInfo = child;
 }
 </script>
 
@@ -35,10 +36,11 @@ const jumpGithub = (link: string) => {
             <a
                 v-for="child in comp.children"
                 :key="child.title"
-                :href="child.link"
                 :title="child.title"
                 class="bg-gray:7 p-4 rounded cursor-pointer flex justify-between items-center shadow hover:(bg-gray-8 text-white)"
+                href="#"
                 target="_blank"
+                @click.stop.prevent="openDrawer(child)"
             >
                 <div class="flex-1 flex items-center w-0">
                     <img :alt="child.title"
@@ -53,6 +55,7 @@ const jumpGithub = (link: string) => {
             </a>
         </div>
     </div>
+    <navigation-drawer ref="navigationDrawer"/>
 </template>
 
 <style scoped>
