@@ -622,67 +622,78 @@ export const adminList: NavigationLink[] = [
                 title: "vue-next-admin",
                 icon: "https://lyt-top.gitee.io/vue-next-admin-doc-preview/images/logo-mini.svg",
                 link: "https://lyt-top.gitee.io/vue-next-admin-doc-preview/",
-                github: "https://github.com/lyt-Top/vue-next-admin"
+                github: "https://github.com/lyt-Top/vue-next-admin",
+                description: "🎉🎉🔥基于vue3.x 、Typescript、vite、Element plus等，适配手机、平板、pc 的后台开源免费模板库"
             },
             {
                 title: "Geeker-Admin",
                 icon: "https://cn.vuejs.org/logo.svg",
                 link: "https://docs.spicyboy.cn/",
-                github: "https://github.com/HalseySpicy/Geeker-Admin"
+                github: "https://github.com/HalseySpicy/Geeker-Admin",
+                description: "Geeker Admin，基于 Vue3.3、TypeScript、Vite4、Pinia、Element-Plus 开源的一套后台管理框架。"
             },
             {
                 title: "vue3-composition-admin",
                 icon: "https://admin-tmpl-test.rencaiyoujia.cn/favicon.ico",
                 link: "https://admin-tmpl-test.rencaiyoujia.cn/#/login?redirect=/dashboard",
-                github: "https://github.com/RainManGO/vue3-composition-admin"
+                github: "https://github.com/RainManGO/vue3-composition-admin",
+                description: "基于vue3 的管理端模板(Vue3 TS Vuex4 element-plus vue-i18n-next composition-api) vue3-admin vue3-ts-admin"
             },
             {
                 title: "vue-element-plus-admin",
                 icon: "https://element-plus-admin.cn/favicon.ico",
                 link: "https://element-plus-admin-doc.cn/",
-                github: "https://github.com/kailong321200875/vue-element-plus-admin"
+                github: "https://github.com/kailong321200875/vue-element-plus-admin",
+                description: "vue-element-plus-admin 是一个基于 element-plus 免费开源的中后台模版。使用了最新的vue3，vite，TypeScript等主流技术开发，开箱即用的中后台前端解决方案，可以用来作为项目的启动模版，也可用于学习参考。并且时刻关注着最新技术动向，尽可能的第一时间更新。vue-element-plus-admin 的定位是后台集成方案，不太适合当基础模板来进行二次开发。因为集成了很多你可能用不到的功能，会造成不少的代码冗余。如果你的项目不关注这方面的问题，也可以直接基于它进行二次开发。如需要基础模版，请切换到 mini 分支，mini 只简单集成了一些如：布局、动态菜单等常用布局功能，更适合开发者进行二次开发。"
             },
             {
                 title: "RuoYi-Vue3",
                 icon: "https://doc.ruoyi.vip/favicon.ico",
                 link: "https://doc.ruoyi.vip/",
-                github: "https://github.com/yangzongzhuan/RuoYi-Vue3"
+                github: "https://github.com/yangzongzhuan/RuoYi-Vue3",
+                description: "(RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue3 & Vite、Element Plus 的前后端分离权限管理系统"
             },
             {
                 title: "cool-admin-vue",
                 icon: "https://show.cool-admin.com/favicon.ico",
                 link: "https://show.cool-admin.com/",
-                github: "https://github.com/cool-team-official/cool-admin-vue"
+                github: "https://github.com/cool-team-official/cool-admin-vue",
+                description: "cool-admin一个很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，永久开源免费，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建"
             },
             {
                 title: "vue-typescript-admin-template",
                 icon: "https://raw.githubusercontent.com/Armour/vue-typescript-admin-template/master/public/img/icons/android-chrome-512x512.png",
                 link: "https://armour.github.io/vue-typescript-admin-docs",
-                github: "https://github.com/Armour/vue-typescript-admin-template"
+                github: "https://github.com/Armour/vue-typescript-admin-template",
+                description: "vue-typescript-admin-template 是一个后台前端解决方案，它基于 vue, typescript 和 element-ui实现。原始的 Javascript 版本的代码是由 PanJiaChen 开发维护的 vue-element-admin， 十分感谢大佬对开源社区做出的贡献 :)"
             },
             {
                 title: "vue-vben-admin",
                 icon: "https://doc.vvbin.cn/logo.png",
                 link: "https://doc.vvbin.cn/",
-                github: "https://github.com/vbenjs/vue-vben-admin"
+                github: "https://github.com/vbenjs/vue-vben-admin",
+                description: "Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的vue3,vite4,TypeScript等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。"
             },
             {
                 title: "vben-admin-thin-next",
                 icon: "https://doc.vvbin.cn/logo.png",
                 link: "https://doc.vvbin.cn/",
-                github: "https://github.com/vbenjs/vben-admin-thin-next"
+                github: "https://github.com/vbenjs/vben-admin-thin-next",
+                description: "Vue Vben Admin 是一个免费开源的中后台模版。使用了最新的vue3,vite2,TypeScript等主流技术开发，开箱即用的中后台前端解决方案，也可用于学习参考。"
             },
             {
                 title: "v3-admin-vite",
+                icon: "https://un-pany.github.io/v3-admin-vite/favicon.ico",
                 link: "https://juejin.cn/post/7089377403717287972",
                 github: "https://github.com/un-pany/v3-admin-vite",
-                icon: "https://un-pany.github.io/v3-admin-vite/favicon.ico"
+                description: "V3 Admin Vite 是一个免费开源的中后台管理系统基础解决方案，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术"
             },
             {
                 title: "arco-design-pro-vue",
                 icon: "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico",
                 link: "https://arco.design/vue/docs/pro/start",
-                github: "https://github.com/arco-design/arco-design-pro-vue"
+                github: "https://github.com/arco-design/arco-design-pro-vue",
+                description: "基于 Arco Design Vue 组件库的开箱即用的中后台前端解决方案。Admin 中后台管理页面，创新的多架构方案。"
             }
         ],
     },
@@ -695,12 +706,14 @@ export const adminList: NavigationLink[] = [
                 icon: "https://panjiachen.github.io/vue-element-admin-site/favicon.ico",
                 link: "https://panjiachen.github.io/vue-element-admin-site/zh/",
                 github: "https://github.com/PanJiaChen/vue-element-admin",
+                description: "vue-element-admin 是一个后台前端解决方案，它基于 vue 和 element-ui实现。它使用了最新的前端技术栈，内置了 i18n 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。相信不管你的需求是什么，本项目都能帮助到你。"
             },
             {
                 title: "ruoyi-vue-pro",
                 icon: "https://doc.ruoyi.vip/favicon.ico",
                 link: "https://doc.iocoder.cn/",
-                github: "https://github.com/YunaiV/ruoyi-vue-pro"
+                github: "https://github.com/YunaiV/ruoyi-vue-pro",
+                description: "RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城等功能。"
             }
         ]
     },
@@ -712,13 +725,15 @@ export const adminList: NavigationLink[] = [
                 title: "tov-template",
                 icon: "https://tov-template.netlify.app/favicon.ico",
                 link: "https://tov-template.netlify.app/",
-                github: "https://github.com/dishait/tov-template"
+                github: "https://github.com/dishait/tov-template",
+                description: "vite + vue3 + ts 开箱即用现代开发模板"
             },
             {
                 title: "vitesse-lite",
                 icon: "https://vitesse-lite.netlify.app/favicon.svg",
                 link: "https://vitesse-lite.netlify.app/",
-                github: "https://github.com/antfu/vitesse-lite"
+                github: "https://github.com/antfu/vitesse-lite",
+                description: "Anthony Fu提供的 vite 模板, 一个轻量级的 Vite + Vue 3 开发模板"
             }
         ]
     }
@@ -734,16 +749,20 @@ export const toolsList: NavigationLink[] = [
                 title: "Github Copilot",
                 icon: "https://github.githubassets.com/images/icons/copilot/copilot-logo-large.svg",
                 link: "https://copilot.github.com/",
+                description: "收费, GitHub Copilot 是一款基于 OpenAI Codex 的人工智能代码助手，它可以帮助开发者更快地编写代码。"
             },
             {
                 title: "codegeex",
                 icon: "https://codegeex.cn/static/plugin_logo.258e3dc0.svg",
                 link: "https://codegeex.cn/",
+                github: "https://github.com/THUDM/CodeGeeX2",
+                description: "免费, CodeGeeX2: 更强大的多语言代码生成模型"
             },
             {
                 title: "comate",
                 icon: "https://comate.baidu.com/images/favicon.ico",
                 link: "https://comate.baidu.com/",
+                description: "免费, 基于文心大模型，结合百度积累多年的编程现场大数据和外部优秀开源数据，为你生成更符合实际研发场景的优质代码, 提升编码效率，释放“十倍”软件生产力"
             }
         ]
     },
@@ -755,28 +774,33 @@ export const toolsList: NavigationLink[] = [
                 title: "ChatGPT",
                 link: "https://chat.openai.com/chat",
                 icon: "https://chatgptui.org/_next/static/media/logo.65288370.svg",
+                description: "ChatGPT 是一个基于 OpenAI GPT 的人工智能对话系统",
             },
             {
                 title: "文心一言",
                 link: "https://yiyan.baidu.com/welcome",
                 icon: "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
+                description: "文心一言是百度自然语言处理技术部基于文心大模型开发的一款AI写作助手",
             },
             {
                 title: "bard",
                 link: "https://bard.google.com/",
                 icon: "https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg",
+                description: "Bard 是一个基于 Google 的人工智能对话系统",
             },
             {
                 title: "Free ChatGPT",
                 icon: "https://cc.ai55.cc/favicon.svg",
                 link: "https://cc.ai55.cc/",
-                github: "https://github.com/xx025/carrot"
+                github: "https://github.com/xx025/carrot",
+                description: "Free ChatGPT Site List 这儿为你准备了众多免费好用的ChatGPT镜像站点",
             },
             {
                 title: "GPT_API_free",
                 icon: "https://github.com/chatanywhere/GPT_API_free/raw/main/images/logo.png",
                 link: "https://github.com/chatanywhere/GPT_API_free",
-                github: "https://github.com/chatanywhere/GPT_API_free"
+                github: "https://github.com/chatanywhere/GPT_API_free",
+                description: "Free ChatGPT API Key，免费ChatGPT API，支持GPT4 API（低价），ChatGPT国内可用免费转发API，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。",
             }
         ]
     },
@@ -788,37 +812,43 @@ export const toolsList: NavigationLink[] = [
                 title: "eslint",
                 icon: "https://eslint.org/favicon.ico",
                 link: "https://eslint.org/",
-                github: "https://github.com/eslint/eslint"
+                github: "https://github.com/eslint/eslint",
+                description: "ESLint 是一个开源的 JavaScript 代码检查工具，由 Nicholas C. Zakas 于2013年6月创建。Code linting 是一种静态分析，常用于寻找有问题的模式或者代码。",
             },
             {
                 title: "prettier",
                 icon: "https://prettier.io/icon.png",
                 link: "https://prettier.io/",
-                github: "https://github.com/prettier/prettier"
+                github: "https://github.com/prettier/prettier",
+                description: "Prettier 是一个固定的代码格式化工具。它通过解析代码并使用自己的规则重新打印它来工作。因此，它不仅仅是一种样式，而是一种对代码进行操作的工具。",
             },
             {
                 title: "husky",
                 icon: "https://pic.imgdb.cn/item/65363d3bc458853aef41d5c9.jpg",
                 link: "https://typicode.github.io/husky/",
-                github: "https://github.com/typicode/husky"
+                github: "https://github.com/typicode/husky",
+                description: "husky 可以让你在 git hook 中运行脚本，比如在 commit 或 push 代码前运行 linter 或测试。",
             },
             {
                 title: "lint-staged",
                 icon: "https://avatars.githubusercontent.com/u/142687600?s=200&v=4",
                 link: "https://github.com/lint-staged/lint-stagedhttps://github.com/lint-staged/lint-staged",
-                github: "https://github.com/lint-staged/lint-staged"
+                github: "https://github.com/lint-staged/lint-staged",
+                description: "lint-staged 针对暂存的 git 文件运行 linter，不要让 💩 溜进您的代码库！",
             },
             {
                 title: "commitlint",
                 icon: "https://commitlint.js.org/assets/icon.png",
                 link: "https://commitlint.js.org/#/",
-                github: "https://github.com/conventional-changelog/commitlint"
+                github: "https://github.com/conventional-changelog/commitlint",
+                description: "commitlint 可以帮助你的团队遵循一致的提交消息约定。通过使用 commitlint，您可以在团队中创建更好的提交消息，从而使您的项目更易于维护。",
             },
             {
                 title: "stylelint",
                 icon: "https://stylelint.io/img/favicon.ico",
                 link: "https://stylelint.io/",
-                github: "https://github.com/stylelint/stylelint"
+                github: "https://github.com/stylelint/stylelint",
+                description: "stylelint 是一个强大的、现代的 CSS 校验工具，它能够帮助你避免错误并强制实施一致的样式。",
             }
         ]
     },
@@ -830,13 +860,15 @@ export const toolsList: NavigationLink[] = [
                 title: "50projects50days",
                 icon: "https://avatars.githubusercontent.com/u/5550850?v=4",
                 link: "https://50projects50days.com/",
-                github: "https://github.com/bradtraversy/50projects50days"
+                github: "https://github.com/bradtraversy/50projects50days",
+                description: "50 个项目 50 天，一个项目一个页面，每天一个项目，每天一个视频，每天一个挑战，每天一个主题，每天一个惊喜",
             },
             {
                 title: "design-resources-for-developers",
                 icon: "https://avatars.githubusercontent.com/u/5550850?v=4",
                 link: "https://github.com/bradtraversy/design-resources-for-developers",
-                github: "https://github.com/bradtraversy/design-resources-for-developers"
+                github: "https://github.com/bradtraversy/design-resources-for-developers",
+                description: "设计资源，为开发者而设计的设计资源",
             }
         ]
     }
