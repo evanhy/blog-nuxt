@@ -11,8 +11,8 @@ defineProps({
     }
 })
 
-// 跳转 GitHub 仓库
-const jumpGithub = (link: string) => {
+// 跳转 链接
+const jumpLink = (link: string) => {
     window.open(link, '_blank');
 }
 
@@ -50,8 +50,9 @@ const openDrawer = (child: NavigationLink) => {
                     <span class="line-1">{{ child.title }}</span>
                 </div>
                 <img v-if="child.github" :src="getGithubStar(child.github)" alt=""
-                     @click.stop.prevent="jumpGithub(child.github)"/>
-                <i v-else class="i-material-symbols:expand-circle-right-outline text-gray-4"></i>
+                     @click.stop.prevent="jumpLink(child.github)"/>
+                <i v-else class="i-material-symbols:expand-circle-right-outline text-gray-4"
+                   @click.stop.prevent="child.link && jumpLink(child.link)"></i>
             </a>
         </div>
     </div>

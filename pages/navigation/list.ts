@@ -506,6 +506,12 @@ export const websiteList: NavigationLink[] = [
                 icon: "https://g.csdnimg.cn/static/logo/favicon32.ico",
                 link: "https://blog.csdn.net/nav/web",
                 description: "CSDN 是全球知名中文IT技术交流平台, 中国最大的IT社区",
+            },
+            {
+                title: "iT邦幫忙",
+                icon: "https://ithelp.ithome.com.tw/storage/favicons/favicon-32x32.png",
+                link: "https://ithelp.ithome.com.tw/",
+                description: "IT邦幫忙是台灣最大IT技術社群，人氣勁爆的Q&A精彩涵蓋Android, iOS, Linux, Windows, AWS, Java, Python, 資安等領域",
             }
         ],
     },
@@ -600,6 +606,79 @@ export const websiteList: NavigationLink[] = [
                 link: "https://github.com/husky-dot/xiaozhi",
                 github: "https://github.com/husky-dot/xiaozhi",
                 description: "小智，一个前端开发者，每周分享前端技术文章",
+            }
+        ]
+    },
+
+    {
+        title: "推荐网站",
+        icon: "i-iconoir:learning",
+        children: [
+            {
+                title: "iconfont",
+                icon: "https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg",
+                link: "https://www.iconfont.cn",
+                description: "阿里巴巴矢量图标库，提供矢量图标下载、在线存储、格式转换等功能",
+            },
+            {
+                title: "网盘分享",
+                icon: "https://wpfx.org/favicon.ico",
+                link: "https://wpfx.org/ziyuan/?px=visits",
+                description: "本站网盘分享（WPFX.ORG）只是一个综合性的网盘云盘资源分享共享网站。如音乐、影视、软件、教程、文件，书籍等，全部免费获取资源！本站立志于免费提供全网最全面的资源整合。网站内容来源于互联网收集，仅仅只适用于学习和交流测试。所有资源链接全部跳转到第三方网盘网站，本站不存储任何网盘云盘资料。"
+            },
+            {
+                title: "WebStorm激活",
+                icon: "https://blog.idejihuo.com/wp-content/uploads/2021/07/favicon-2.ico",
+                link: "https://blog.idejihuo.com/topics/jetbrains/webstorm",
+                description: "WebStorm激活教程, 提供 JetBrains 全家桶激活教程和激活码"
+            },
+            {
+                title: "极简插件",
+                icon: "https://chrome.zzzmh.cn/favicon.ico",
+                link: "https://chrome.zzzmh.cn/#/index",
+                description: "极简插件，提供各种 Chrome 插件, 免费下载, 无需翻墙"
+            },
+            {
+                title: "我的小站-阿里云盘资源共享站",
+                icon: "https://pan666.net/assets/avatars/pXqXDKhubXu5sw46.png",
+                link: "https://pan666.net/",
+                description: "阿里云盘资源站, 防失联中转站: https://pan666.cn/"
+            }
+        ]
+    },
+    {
+        title: "前端导航",
+        icon: "i-ri:navigation-line",
+        children: [
+            {
+                title: "印记中文",
+                icon: "https://docschina.org/static/favicon.ico",
+                link: "https://docschina.org/",
+                description: "印记中文 - 深入挖掘国外前端新领域，为中国 Web 前端开发人员提供优质文档",
+            },
+            {
+                title: "百度前端技术学园",
+                icon: "https://ife.baidu.com/assets/img/ife.ico",
+                link: "https://ife.baidu.com/encyclopedia/readme1.html",
+                description: "由百度创办的免费前端技术学习实践、交流、分享平台"
+            },
+            {
+                title: "Web前端导航",
+                icon: "https://nav.daijl.cn/img/logo.ico",
+                link: "https://nav.daijl.cn/",
+                description: "前端编程导航是souldjl推出的前端导航，收录了大量高质量前端相关站点，为广大用户提供学习网站、学习方向、学习途径、最新前端框架等内容。收录国内外前端网站。"
+            },
+            {
+                title: "创造狮",
+                icon: "https://chuangzaoshi.com/assets/images/favicon.png",
+                link: "https://chuangzaoshi.com/code",
+                description: "创造狮，一个创意工作者的导航，专注分享正版优质设计、前端、产品、运营的书签导航，设计教程、设计规范、颜色搭配、灵感创意、前端框架、开发者工具、互联网新品推荐、运营数据分析、自媒体和工具利器好用的分类导航大全"
+            },
+            {
+                title: "编程导航",
+                icon: "https://www.code-nav.cn/favicon.ico",
+                link: "https://www.code-nav.cn/",
+                description: "编程导航，发现优质编程学习资源"
             }
         ]
     }
@@ -871,6 +950,6 @@ export const toolsList: NavigationLink[] = [
                 description: "设计资源，为开发者而设计的设计资源",
             }
         ]
-    }
+    },
 ]
 
