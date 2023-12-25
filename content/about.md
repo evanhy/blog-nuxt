@@ -2,7 +2,6 @@
 
 ### 网站
 
-> 首页prompt样式参考starship，相较于ohmyzsh themes提供的主题，我更喜欢starship的风格，整个网站基于Next.js搭建
 
 **主要用到以下技术栈：**
 
