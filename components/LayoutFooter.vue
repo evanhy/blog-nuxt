@@ -11,7 +11,7 @@ import {siteConfig} from "~/site.config";
                        target="_blank">
                       CC BY-NC-SA 4.0
                     </a>
-                    2023-PRESENT © {{ siteConfig.author }}
+                    2024-PRESENT © {{ siteConfig.author }}
                 </span>
         </div>
     </footer>

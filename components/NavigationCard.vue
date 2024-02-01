@@ -17,7 +17,14 @@ const jumpLink = (link: string) => {
 }
 
 // 导航抽屉
-const navigationDrawer = ref<NavigationDrawerProps>(null);
+const navigationDrawer = ref<NavigationDrawerProps>({
+    isOpen: false,
+    compInfo: {},
+    open: () => {
+    },
+    close: () => {
+    }
+});
 
 // 打开抽屉
 const openDrawer = (child: NavigationLink) => {
@@ -49,7 +56,7 @@ const openDrawer = (child: NavigationLink) => {
                     />
                     <span class="line-1">{{ child.title }}</span>
                 </div>
-                <img v-if="child.github" :src="getGithubStar(child.github)" alt=""
+                <img v-if="child.github && getGithubStar(child.github)" :src="getGithubStar(child.github)" alt=""
                      @click.stop.prevent="jumpLink(child.github)"/>
                 <i v-else class="i-material-symbols:expand-circle-right-outline text-gray-4"
                    @click.stop.prevent="child.link && jumpLink(child.link)"></i>

@@ -65,7 +65,7 @@ export interface NavigationDrawerProps {
                     <!--                        <i class="i-mdi:github text-black"></i>-->
                     <!--                        预览地址-->
                     <!--                    </a>-->
-                    <div v-if="compInfo.github">
+                    <div v-if="compInfo.github && getGithubStar(compInfo.github)">
                         <img :alt="compInfo.title" :src="getGithubStar(compInfo.github)" class="w-20"/>
                     </div>
                 </div>
