@@ -71,9 +71,7 @@ export interface NavigationDrawerProps {
                 </div>
                 <div class="max-h-80 overflow-y-auto">
                     <div v-if="compInfo.description">
-                        <div class="text-gray-4 mt-2 ">
-                            {{ compInfo.description }}
-                        </div>
+                        <div class="text-gray-4 mt-2 " v-html="compInfo.description" />
                     </div>
                 </div>
 

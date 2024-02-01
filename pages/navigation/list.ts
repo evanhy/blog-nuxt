@@ -544,6 +544,18 @@ export const websiteList: NavigationLink[] = [
         description: "张鑫旭，专注于 CSS, CSS大佬",
       },
       {
+        title: "ChockCoco",
+        icon: "https://aui.atlassian.com/aui/latest/docs/images/avatar-person.svg",
+        link: "https://www.cnblogs.com/coco1s",
+        description: "ChockCoco, CSS大佬",
+      },
+      {
+        title: "被删的前端游乐场",
+        icon: "https://godbasin.github.io/img/favicon.ico",
+        link: "https://godbasin.github.io/",
+        description: `<a href='https://godbasin.github.io/front-end-playground/'>被删的前端游乐场博客作者</a>, 一个前端大佬`,
+      },
+      {
         title: "廖雪峰",
         icon: "https://www.liaoxuefeng.com/favicon.ico",
         link: "https://www.liaoxuefeng.com/",
@@ -554,13 +566,13 @@ export const websiteList: NavigationLink[] = [
         icon: "https://www.xiabingbao.com/favicon.ico",
         link: "https://www.xiabingbao.com/",
         description:
-          "蚊子，目前是一名前端开发工程师，主要负责前端规划、框架与架构、前端性能优化。专注前端技术，关注交互体验，擅长web ajax开发。坚信前端工程师的价值是最终能把技术和设计完美结合在一起。用最新的技术方案巧妙地帮助这些设计得以实现。",
+          "蚊子, 目前是一名前端开发工程师, 主要负责前端规划、框架与架构、前端性能优化。专注前端技术, 关注交互体验, 擅长web ajax开发。坚信前端工程师的价值是最终能把技术和设计完美结合在一起。用最新的技术方案巧妙地帮助这些设计得以实现。",
       },
       {
         title: "三咲智子 Kevin Deng",
         icon: "https://xlog.sxzz.moe/_next/image?url=https%3A%2F%2Fipfs.xlog.app%2Fipfs%2Fbafkreihcmikli6erxacovfw5xlwnaqv2ye7decbvlkxkljpfioqqsbipqe&w=384&q=75",
         link: "https://xlog.sxzz.moe/",
-        description: "三咲智子 Kevin Deng，Vue,vite,vueuse 的核心成员, vue-macros 的作者...",
+        description: "三咲智子 Kevin Deng, Vue,vite,vueuse 的核心成员, vue-macros 的作者...",
       },
       {
         title: "若川的博客",
@@ -647,6 +659,12 @@ export const websiteList: NavigationLink[] = [
         description: "极简插件，提供各种 Chrome 插件, 免费下载, 无需翻墙",
       },
       {
+        title: "Crx搜搜",
+        icon: "https://www.crxsoso.com/favicon-32x32.png",
+        link: "https://www.crxsoso.com/",
+        description: "一个牛X的扩展和应用商店",
+      },
+      {
         title: "我的小站-阿里云盘资源共享站",
         icon: "https://pan666.net/favicon.ico",
         link: "https://pan666.net/",
@@ -719,7 +737,8 @@ export const adminList: NavigationLink[] = [
         icon: "https://file.d2.pub/image/qiniu_20200215125724.png",
         link: "https://d2.pub/doc/d2-admin/",
         github: "https://github.com/d2-projects/d2-admin",
-        description: "D2Admin 是一个完全 开源免费 的企业中后台产品前端集成方案，使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。"
+        description:
+          "D2Admin 是一个完全 开源免费 的企业中后台产品前端集成方案，使用最新的前端技术栈，小于 60kb 的本地首屏 js 加载，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。",
       },
       {
         title: "Geeker-Admin",
@@ -741,14 +760,14 @@ export const adminList: NavigationLink[] = [
         icon: "https://lolicode.gitee.io/scui-doc/demo/favicon.ico",
         link: "https://lolicode.gitee.io/scui-doc/",
         github: "https://gitee.com/lolicode/scui",
-        description: "一款开箱即用、高可配、高性能、风格精致、代码优雅的基于Vue3和elementPlus的WebUI前端框架，让前端开发更快乐。"
+        description: "一款开箱即用、高可配、高性能、风格精致、代码优雅的基于Vue3和elementPlus的WebUI前端框架，让前端开发更快乐。",
       },
       {
         title: "Soybean Admin",
         icon: "https://soybeanjs.cn/favicon.svg",
         link: "https://docs.soybeanjs.cn/",
         github: "https://github.com/honghuangdc/soybean-admin",
-        description: "一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。"
+        description: "一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。",
       },
       {
         title: "vue-element-plus-admin",
@@ -829,8 +848,8 @@ export const adminList: NavigationLink[] = [
         icon: "https://file.iviewui.com/admin-dist/favicon.ico",
         link: "https://lison16.github.io/iview-admin-doc/#/",
         github: "https://github.com/iview/iview-admin",
-        description: "Vue.js 2.0 admin management system template based on iView."
-      }
+        description: "Vue.js 2.0 admin management system template based on iView.",
+      },
     ],
   },
   {
