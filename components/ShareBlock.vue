@@ -4,7 +4,7 @@
 
 <template>
     <div mr-4>
-        <a href="https://github.com/pan52yu" target="_blank" title="GitHub">
+        <a href="https://github.com/evanhy" target="_blank" title="GitHub">
             <i i-iconoir-github></i>
         </a>
     </div>
