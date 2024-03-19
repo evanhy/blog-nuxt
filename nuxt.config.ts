@@ -40,5 +40,6 @@ export default defineNuxtConfig({
         '@/assets/styles/theme.css',
         '@/assets/styles/transition.css',
         '@/assets/styles/markdown.scss',
+        '@/assets/fonts/fons.scss'
     ]
 })
