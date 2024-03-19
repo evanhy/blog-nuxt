@@ -39,7 +39,6 @@ export default defineNuxtConfig({
         '@/assets/styles/global.scss',
         '@/assets/styles/theme.css',
         '@/assets/styles/transition.css',
-        '@/assets/styles/markdown.scss',
-        '@/assets/fonts/fons.scss'
+        '@/assets/styles/markdown.scss'
     ]
 })
